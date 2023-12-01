@@ -1,0 +1,44 @@
+* {
+  background-color: rgb(10, 10, 65);
+}
+
+.heading-class {
+    text-align: center;
+    color: antiquewhite;
+    font-family: "Bree Serif";
+}
+
+.div-class {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat((2,1fr));
+    gap: 7px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.btn {
+   
+    width: 100px;
+    height: 100px;
+    border: 7px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#green {
+    background-color: green;
+
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
