@@ -1,0 +1,71 @@
+* {
+    background-color: rgb(71, 43, 212);
+}
+.head-class {
+   text-align: center;
+   font-size: 900;
+   font-family: sans-serif;
+   text-shadow: 3px whitesmoke;
+   font-size: 2rem;
+   color: whitesmoke;
+}
+I {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+
+
+}
+.div-class {
+   background-color: aliceblue;
+   text-align: center;
+   width: 600px;
+   height: 200px;
+   margin-left: 450px;
+
+   padding: 30px;
+}
+.btn {
+    display: inline-block;
+    margin: 15px;
+    border: 10px solid lightblue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4;
+    font-size: 1rem;
+    background-color: aqua;
+    color: aliceblue;
+
+}
+footer {
+    text-align: right;
+    margin: 20px;
+    color: aquamarine;
+}
+.rolex {
+   background-image: url("./rolex.jpg");
+}
+
+.leo {
+    background-image: url("./leo.webp");
+}
+
+.salaar {
+    background-image: url("./salaar.jpg");
+}
+
+.rocky {
+    background-image: url("./kgf.avif");
+}
+
+.rrr {
+    background-image: url("./rrr.jpg");
+}
+.pushpa {
+    background-image: url("./pushpa.jpg");
+}
+.ntr {
+    background-image: url("./ntr.jpg");
+}
