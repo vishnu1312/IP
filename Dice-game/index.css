@@ -1,0 +1,45 @@
+* {
+    background-color: aquamarine;
+}
+.heading-class {
+    color: rgb(66, 66, 172);
+    font-family: 'Bree Serif', serif;
+    font-size: 900;
+    text-align: center;
+
+}
+.div-class {
+    
+    text-align: center;
+}
+.image1-class {
+    width: 150px;
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+.image2-class {
+    width: 150px;
+    position:relative;
+    left: 15px;
+    top: 30px;
+    
+}
+.player-1-class {
+    position: relative;
+    right: 70px;
+    top: 50px;
+    font-family: 'Bree Serif';
+}
+.player-2-class {
+    position: relative;
+    left: 80px;
+    top: 30px;
+    font-family: 'Bree Serif';
+}
+footer {
+    text-align: right;
+    margin: 20px;
+    font-family: 'Bree Serif';
+    margin-top: 200px;
+}
