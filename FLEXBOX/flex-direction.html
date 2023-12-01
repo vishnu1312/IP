@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display-Direction-Example</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="MV VARDHAN">
+        <style>
+             .container {
+               /* background-color: aqua; */
+                /* border: 5px solid gold; */
+                display: inline-flex;
+                gap: 30px;
+               flex-direction: column;
+               flex-wrap: wrap;
+                color: white;
+             }
+             h1 {
+                text-align: center;
+             }
+             /* we can also use 
+             .container div
+             .container > div */
+           .container > * {
+            flex-basis: 50px;
+           }
+             #green {
+                background-color: green;
+             }
+             #orange {
+                background-color: orange;
+             }
+             #red {
+                background-color: red;
+             }
+             #blue {
+                background-color: blue;
+             }
+             #yellow {
+                background-color: yellow;
+             }
+             #violet {
+                background-color: violet;
+             }
+             
+        </style>
+    </head>
+    <body>
+        <h1>DISPLAY-DIRECTION-EXAMPLE</h1>
+        <div class="container">
+            <div id="green">GREEN</div>
+            <div id="orange">ORANGE</div>
+            <div id="red">RED</div>
+            <div id="blue">BLUE</div>
+            <div id="yellow">YELLOW</div>
+            <div id="violet">VIOLET</div>
+        </div>
+    </body>
+</html>

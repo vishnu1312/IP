@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FLEX-BOX-EXAMPLE</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="MV VARDHAN">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+         * {
+          background-color: aquamarine;
+         }
+         .main-nav {
+          display: flex;
+          background-color: azure;
+          padding: 20px;
+          gap: 20px;
+          justify-content:center;
+          list-style: none;
+          flex-wrap: wrap;
+          font-family: 'Bree Serif', Serif;
+         }
+      .out {
+        margin-left: auto;
+      }
+      div a {
+        padding: 10px;
+        margin-top: 4px;
+      }
+      div a:hover {
+        color: aliceblue;
+        transition-duration: 0.3s;
+        transition-timing-function:ease;
+        border: 7px solid red;
+        border-radius: 5px;
+      }
+      u:hover {
+        width: 0.5px;
+      }
+      .container {
+      
+        width: 100px;
+        height: 300px;
+        display: inline-flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        cursor: pointer;
+        
+      }
+     
+      .btn {
+        border: 5px solid rgb(89, 89, 239);
+        border-radius: 4px;
+        background-color: aliceblue;
+        font-family: 'Bree Serif', Serif;
+      }
+      .btn:hover {
+        border: 6px solid rgb(203, 95, 95);
+        border-radius: 15px;
+        transition-duration: 0.3s;
+        cursor: pointer;
+      }
+      #Menu {
+        font-family: 'Bree Serif' ,Serif;
+        border: 6px solid blue;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: antiquewhite;
+      }
+      #Menu:hover {
+        animation-duration: 0.5s;
+        border: 5px solid red;
+        border-radius: 5px;
+        cursor: pointer;
+
+      }
+    </style>
+  </head>
+  <BODY>
+    <div class="main-nav">
+     <a href=""><u>About</u></a>
+     <a href="">Products</a>
+     <a href="">More Teams</a>
+     <a href="">About</a>
+    </div>
+    <div class="container">
+      <div id="Menu">Menu-Bar</div>
+      <button class="btn">Click1</button>
+      <button class="btn">Click2</button>
+      <button class="btn">Click3</button>
+      <button class="btn">Click4</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+      $("#Menu").on("click", function() {
+        $(".btn").slideToggle();
+      });
+    </script>
+  </BODY>
+</html>

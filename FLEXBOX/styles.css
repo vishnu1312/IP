@@ -1,0 +1,61 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100vh;
+    font-family: 'Sono',sans-serif;
+  }
+  .pricing-plan {
+    flex: 1;
+    max-width: 400px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+  }
+  .plan-title {
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .plan-prize {
+    font-size: 30px;
+    font-weight:900;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .plan-features li {
+    margin-bottom: 20px;
+  }
+  .plan-button {
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  @media (max-width:650px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+  }
+  h1 {
+    text-align: center;
+   color: orangered;
+   background-color: aqua;
+   border-radius: 5px;
+   margin: 50px;
+   padding: 20px;
+   padding-top: 20px;
+   flex-wrap: wrap;
+   max-width: 2000px;
+   min-width: 200px;
+
+  }
